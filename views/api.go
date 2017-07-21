@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/camIAm/Tasks/db"
+	"github.com/camIAm/Tasks/types"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/thewhitetulip/Tasks/db"
-	"github.com/thewhitetulip/Tasks/types"
 )
 
 type MyCustomClaims struct {

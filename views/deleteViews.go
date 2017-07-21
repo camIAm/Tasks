@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/thewhitetulip/Tasks/db"
-	"github.com/thewhitetulip/Tasks/sessions"
-	"github.com/thewhitetulip/Tasks/utils"
+	"github.com/camIAm/Tasks/db"
+	"github.com/camIAm/Tasks/sessions"
+	"github.com/camIAm/Tasks/utils"
 )
 
 //TrashTaskFunc is used to populate the trash tasks

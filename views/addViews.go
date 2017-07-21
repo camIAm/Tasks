@@ -15,9 +15,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/thewhitetulip/Tasks/db"
-	"github.com/thewhitetulip/Tasks/sessions"
-	"github.com/thewhitetulip/Tasks/utils"
+	"github.com/camIAm/Tasks/db"
+	"github.com/camIAm/Tasks/sessions"
+	"github.com/camIAm/Tasks/utils"
 )
 
 // UploadedFileHandler is used to handle the uploaded file related requests

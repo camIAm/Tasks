@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/camIAm/Tasks/types"
 	_ "github.com/mattn/go-sqlite3" //we want to use sqlite natively
 	md "github.com/shurcooL/github_flavored_markdown"
-	"github.com/thewhitetulip/Tasks/types"
 )
 
 var database Database

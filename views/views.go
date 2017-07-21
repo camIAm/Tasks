@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/thewhitetulip/Tasks/db"
-	"github.com/thewhitetulip/Tasks/sessions"
+	"github.com/camIAm/Tasks/db"
+	"github.com/camIAm/Tasks/sessions"
 )
 
 var homeTemplate *template.Template

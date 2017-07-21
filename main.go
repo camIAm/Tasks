@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/thewhitetulip/Tasks/config"
-	"github.com/thewhitetulip/Tasks/views"
+	"github.com/camIAm/Tasks/config"
+	"github.com/camIAm/Tasks/views"
 )
 
 func main() {

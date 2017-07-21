@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/thewhitetulip/Tasks/db"
-	"github.com/thewhitetulip/Tasks/sessions"
+	"github.com/camIAm/Tasks/db"
+	"github.com/camIAm/Tasks/sessions"
 )
 
 //RequiresLogin is a middleware which will be used for each httpHandler to check if there is any active session

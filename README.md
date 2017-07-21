@@ -1,5 +1,15 @@
 # Tasks
 
+Forked from https://github.com/thewhitetulip 
+
+I would like to give a shout out to the thewhitetulip for putting together a web application and complimentary book to educate aspiring web devs.
+
+A few small changes to get the project running on my machine:
+==================
+Updated directories in the install.sh since I cloned the respository rather than go get'ed it.
+
+Added the jwt-go package from https://github.com/dgrijalva/jwt-go to the views/api.go file to access the StandardClaims struct located at  https://github.com/dgrijalva/jwt-go/claims.go.
+==================
 Tasks is a simplistic Go webapp to manage tasks, I built this tool to manage tasks which I wanted to do, there are many good kanban style boards, but I felt they were a bit too heavyweight for my taste. Also I wanted to learn the Go webapp development.
 
 How to use?
